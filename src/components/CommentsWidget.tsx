@@ -20,7 +20,7 @@ export default function CommentsWidget({ slug }: { slug: string }) {
 
   return (
     <section className="not-prose mt-10">
-      <h3 className="text-lg font-semibold mb-3">Comments</h3>
+      <h3 className="text-lg font-semibold mb-3">Comments(In Development)</h3>
       <div className="rounded-2xl p-4 bg-neutral-50 ring-1 ring-black/5 flex flex-col gap-3">
         <input value={name} onChange={e => setName(e.target.value)} placeholder="Your name" className="px-3 py-2 rounded-xl bg-white ring-1 ring-black/10" />
         <textarea value={text} onChange={e => setText(e.target.value)} placeholder="Write a comment..." rows={3} className="px-3 py-2 rounded-xl bg-white ring-1 ring-black/10" />
