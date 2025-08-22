@@ -18,7 +18,7 @@ export default function Footer() {
             rounded="rounded-full"
           />
         </div>
-        <p className="opacity-80">Built with React + Tailwind · Hash Router</p>
+        <p className="opacity-80"></p>
       </div>
     </footer>
   )
