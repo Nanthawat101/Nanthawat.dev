@@ -15,7 +15,7 @@ export default function BlogDetail({ id }: { id: string }) {
       <a href="#/blogs" className="no-underline text-sm">← Back to Blog</a>
       <h1>{post.title}</h1>
       <p className="text-neutral-500 text-sm">{new Date(post.date).toLocaleDateString()} · {post.read} read</p>
-      {post.cover && <img src={post.cover} alt="Cover" className="rounded-2xl w-full" />}\n      <p>{post.body}</p>
+      {post.cover && <img src={post.cover} alt="Cover" className="rounded-2xl w-full" />}<p>{post.body}</p>
       <CommentsWidget slug={post.id} />
     </article>
   )
